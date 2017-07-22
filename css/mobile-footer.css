@@ -1,0 +1,62 @@
+#foot {
+    position: absolute;
+    margin: 0;
+    top: 100%;
+    height: 130px;
+    width: 100%;
+    background-color: #efefef;
+    box-shadow: 2px -2px 4px #cccccc;
+}
+
+#botle {
+    position: absolute;
+    left: 4%;
+}
+
+#botmi {
+    position: absolute;
+    right: 4%;
+    top: 12px;
+}
+
+#botri {
+    position: absolute;
+    left: 4%;
+    top: 45px;
+}
+
+.ques {
+    text-decoration: underline !important;
+    color: black;
+    font-family: Century Gothic;
+    text-shadow: 2px -2px 4px #dddddd;
+    font-size: 11.5px;
+}
+
+#botmi p {
+    font-family: Century Gothic;
+    text-shadow: -2px -2px 4px #cccccc;
+    text-align: right !important;
+    font-size: 10px;
+}
+
+#botri p {
+    font-family: Century Gothic;
+    text-shadow: -2px -2px 4px #cccccc;
+    font-size: 11.5px;
+}
+.socmed {
+    background-color: black;
+    color: white;
+    padding: 4px 6px;
+    border-radius: 50%;
+    text-decoration: none;
+    box-shadow: 2px -2px 4px #cccccc;
+    font-size: 12px;
+}
+
+.socmed:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 2px -2px 4px dimgrey;
+}

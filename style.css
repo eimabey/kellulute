@@ -1,0 +1,9 @@
+@font-face { font-family: Century Gothic; src: url('Century Gothic.ttf');}
+@font-face { font-family: Athelas; src: url('Athelas.ttf');}
+@font-face { font-family: Century Schoolbook; src: url('Century Schoolbook.ttf');}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}

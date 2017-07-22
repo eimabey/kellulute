@@ -1,0 +1,95 @@
+#mainbar {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    z-index: 1;
+    box-shadow: 2px 2px 4px dimgrey;
+    background-color: rgba(255,255,255,0.9);
+    
+}
+
+#logo {
+    font-size: 34px;
+    font-family: Athelas;
+    text-decoration: none;
+    color: black;
+    text-shadow: 2px 2px 4px #bbbbbb;
+    z-index: 2;
+    padding: 3px;
+    position: absolute;
+    left: 5%;
+    top: 2px;
+    
+}
+
+#cart {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    
+    position: absolute;
+    right: 12%;
+    top: 12px;
+    z-index: 2;
+    text-shadow: 2px 2px 4px #b8b9ba;
+}
+
+#right {
+    font-size: 26px;
+    color: black;
+    text-shadow: 2px 2px 4px #b8b9ba;
+    z-index: 2;
+    
+    position: absolute;
+    left: 55%;
+    top: 11px;
+}
+
+/*the sidebar portion */
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    background-color: rgba(255,255,255,0.95);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Century Gothic;
+    color: black;
+    text-shadow: 2px 2px 4px #cccccc;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    text-decoration: underline;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+#navbar {
+    display: none;
+}
